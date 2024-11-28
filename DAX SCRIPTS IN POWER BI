@@ -1,0 +1,22 @@
+DAX SCRIPTS TO CREATE EXPLICIT MEASURES FOR GRAINGER AND BOSCH DATA COLUMNS
+
+Total_Advert_Spend = SUM('Grainger_&_Bosch_Data'[Advert_Spend])
+Total_Click_Through_Rates = SUM('Grainger_&_Bosch_Data'[Click_Through_Rate])
+Total_Cost_Per_Acquisition = SUM('Grainger_&_Bosch_Data'[Cost_Per_Acquisition])
+Total_Impressions = SUM('Grainger_&_Bosch_Data'[Impressions])
+Total_Orders = SUM('Grainger_&_Bosch_Data'[Total_Orders])
+Total_Post_Click_Orders = SUM('Grainger_&_Bosch_Data'[Post_Click_Order])
+Total_Post_View_Order = SUM('Grainger_&_Bosch_Data'[Post_View_Order])
+Total_Return_on_Advert_Spend = SUM('Grainger_&_Bosch_Data'[Return_on_Advert_Spend])
+
+
+DAX SCRIPTS TO CREATE EXPLICIT MEASURES FOR TARGETING COLUMNS
+
+Total_Targeting_Advert_Spend = SUM('TARGETING'[Advert_Spend])
+Total_Targeting_Cost_Per_Acquisition = SUM(TARGETING[Cost_Per_Acquisition])
+Total_Targeting_Impressions = SUM(TARGETING[Impressions])
+Total_Targeting_Orders = SUM(TARGETING[Total_Orders])
+Total_Targeting_Post_Click_Orders = SUM(TARGETING[Post_Click_Orders])
+Total_Targeting_Post_View_Orders = SUM(TARGETING[Post_View_Orders])
+Total_Targeting_Return_on_Advert_Spend = SUM(TARGETING[Return_on_Advert_Spend])
+Total_Targetng_Click_Through_Rate = SUM('TARGETING'[Click_Through_Rate])
